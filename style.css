@@ -516,3 +516,6 @@ input:focus-visible,textarea:focus-visible {outline-offset:1px}
 .library-group summary {cursor:pointer;padding:14px 2px;font-weight:700}
 .library-group summary small {float:right;color:var(--muted);font-variant-numeric:tabular-nums}
 .library-group .exercise-row {padding:12px}
+.day-tabs {flex-wrap:wrap}
+.day-tab {flex:0 1 auto;max-width:100%;overflow-wrap:anywhere}
+@media(max-width:560px){.page-head:has([data-tool="new-training"]){align-items:flex-start;flex-direction:column}}
