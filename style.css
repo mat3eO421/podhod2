@@ -512,3 +512,7 @@ input:focus-visible,textarea:focus-visible {outline-offset:1px}
 .full-input {display:block;width:100%;margin:6px 0 14px}
 #plates-result,#goal-result {margin:16px 0}
 .exercise-row[hidden] {display:none}
+.library-group {border-bottom:1px solid var(--line)}
+.library-group summary {cursor:pointer;padding:14px 2px;font-weight:700}
+.library-group summary small {float:right;color:var(--muted);font-variant-numeric:tabular-nums}
+.library-group .exercise-row {padding:12px}
